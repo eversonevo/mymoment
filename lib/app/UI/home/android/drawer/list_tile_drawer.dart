@@ -9,14 +9,14 @@ class ListTileDrawer extends StatelessWidget {
 
     final String title;
     final Icon icon;
-    final Function onTap;
+    final VoidCallback onTap;
 
   @override
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(title),
       trailing: icon,
-      onTap: onTap(),
+      onTap: onTap,
     );
   }
 }
