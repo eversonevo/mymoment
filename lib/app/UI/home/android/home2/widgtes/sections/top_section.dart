@@ -122,7 +122,7 @@ class TopSection extends StatelessWidget {
                   'https://neilpatel.com/wp-content/uploads/2019/09/maos-femininas-segurando-smartphone-com-logo-de-ap.jpeg',
                   fit: BoxFit.cover,),
               ),
-              Padding(
+              /*Padding(
                 padding: const EdgeInsets.all(16),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -147,7 +147,7 @@ class TopSection extends StatelessWidget {
                     CustomSearchField(),
                   ],
                 ),
-              ),
+              ),*/
 
             ],
           );

@@ -10,7 +10,7 @@ class ControllerFadetrollerFade extends GetxController {
     String firstChild = "Olaaaaa";
     String secondChild = "Ihuuuu";
 
-    var leitura_anterior = new DateTime.now();
+    //var leitura_anterior = new DateTime.now();
     int execussoes = 0;
         
 
